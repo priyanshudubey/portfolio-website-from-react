@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #02203f;
+  width: auto;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style-type: none;
+}
+footer {
+  width: auto;
+  text-align: center;
+  color: #ccd6f6;
+}
+footer a {
+   text-decoration: none;
+   color: #64ffda;
+}
+
+/* Main Intro Start */
+.intro, .about, .project, .interest, .contact {
+  padding-left: 12px 12px;
+  margin: 8% 8%;
+}
+
+.links {
+  margin-left: 8%;
+  margin-top: -4%;
+}
+
+.intro > .hi {
+  color: #64ffda;
+  font-size: 16px;
+}
+.intro > .name, .make {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 63px;
+  margin-top: -20px;
+}
+.intro > .name {
+  color: #ccd6f6;
+}
+.make {
+  color: #8892b0;
+}
+
+.links > a {
+  text-decoration: none;
+  color: #8892b0;
+  margin: 10px;
+}
+.links > a:hover {
+  color:  #64ffda;
+}
+/* Main Intro End */
+
+/* Navbar starts here */
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 14px;
+  overflow: hidden;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+.navbar > a {
+  float: right;
+  display: block;
+  padding: 12.5px 12.5px;
+  color: #ccd6f6;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar > a:hover {
+  color: #64ffda;
+}
+.navbar > .icon {
+  display: none;
+}
+.navbar > .favi {
+  float: left;
+}
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+      display: none;
+  }
+  .navbar a.icon {
+      float: right;
+      display: block;
+  }
+  .navbar.responsive {
+      position: relative;
+  }
+  .navbar.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+  }
+}
+
+/* Navbar ends here */
+
+/* About starts Here */
+.about > h2 {
+  color: #ccd6f6;
+  font-size: 32px;
+  margin-top: 20px;
+}
+.about > p, ul {
+  color: #8892b0;
+}
+.about > ul {
+  column-count: 2;
+}
+.about > ul > li::before {
+  content: '▹';
+  color: #64ffda;
+}
+
+/* About ends Here */
+
+/* Project start here */
+.project > h2 {
+  color: #ccd6f6;
+  font-size: 32px;
+}
+.project {
+  display: grid;
+}
+.cards {
+  margin-top: 50px;
+  background-color: #172a45;
+  padding: 35px;
+  grid-column: 1 / span 2;
+}
+.cards > h4 {
+  font-size: 18px;
+  color: #ccd6f6;
+}
+.cards > h1 {
+  font-size: 12px;
+  color: #ccd6f6;
+}
+.cards > p {
+  color: #a8b2d1;
+  font-size: 16px;
+}
+.cards > a {
+  text-decoration: none;
+  color: #64ffda;
+  font-size: 13px;
+}
+.cards > a:hover {
+  color: #64ffda;
+}
+.cards > .tools {
+  font-size: 12px;
+}
+.project > .cards {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s ease-in;
+  width: 100%;
+  border-radius: 5px;
+}
+.cards:hover {
+  box-shadow: 0 8px 16px 0 #808080;
+}
+/* Project ends here */
+
+/* ul:nth-of-type(1) {
+  list-style-position: inside;
+  padding: 0;
+  border-left: solid 2px red;
+} */
+/* li:nth-of-type(1) {
+  list-style-position: inside;
+  padding: 0;
+  border-left: solid 2px red;
+} */
+
+/* Interest starts here */
+.interest > h2 {
+  color: #ccd6f6;
+  font-size: 32px;
+}
+.interest a {
+  text-decoration: none;
+  color: #64ffda;
+  font-size: 13px;
+}
+.interest > ul > li::before {
+  content: '▹';
+  color: #64ffda;
+}
+/* Interest ends here */
+
+/* Contact Start here */
+.contact {
+  width: auto;
+  text-align: center;
+}
+.contact > h2 {
+  color: #ccd6f6;
+  font-size: 32px;
+  text-align: left;
+}
+.contact > p {
+  color: #888899;
+  padding-left: 40px;
+  font-size: 17px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.mail-btn {
+  margin-top: 7%;
+}
+.mail-link {
+  cursor: pointer;
+  font-size: 14px;
+  color: #64ffda;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 1.30em 1.30em;
+  border: 1.5px solid #64ffda;
+  transition: all 0.30s cubic-bezier(0.645,0.045,0.355,1);
+}
+.mail-link:hover {
+  background-color: rgba(100,255,218,0.1);
+}
+/* Contact end here */
