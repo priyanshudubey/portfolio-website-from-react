@@ -5,6 +5,7 @@ const Footer = () => {
         <footer>
             {/* <br color="black"></br> */}
             {/*  <i className = "fa fa-code" style = {{color: "#FF5252"}}></i>  */}
+            <hr></hr>
             <p>All rights reserved to
                 <a href="https://github.com/priyanshudubey" target="_blank" rel="noopener noreferrer">
                 <span> </span> 
