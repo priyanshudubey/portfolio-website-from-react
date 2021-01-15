@@ -13,7 +13,7 @@ class Profiles extends React.Component {
                 icon: 'fa fa-linkedin fa-lg'
             },
             {
-                link: 'wa.me/919570175896',
+                link: 'https://wa.me/919570175896',
                 icon: 'fa fa-whatsapp fa-lg'
             },
             // {
