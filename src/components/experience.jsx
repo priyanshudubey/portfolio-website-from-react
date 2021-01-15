@@ -46,9 +46,6 @@ class Experience extends React.Component {
                                 <p className = "tools"> {item.tools.map(tool => (
                                     <span key = {tool}> | {tool} | </span>
                                 ))} </p>
-{/* <a href = {item.live} target="blank">Live Project</a>
-                                <span> | </span>
-                                <a href = {item.code} target="blank">Certificate</a> */}
                             </div>
                         </li>
                     ))}
