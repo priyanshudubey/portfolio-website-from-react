@@ -7,7 +7,7 @@ class Experience extends React.Component {
                 name: 'TECHNOLOGY DEVELOPMENT INTERN',
                 desig: 'Triluxo Technologies',
                 dur: 'Oct 2020 - Dec 2020',
-                detail: "Developed a chatbot for room services in hotel where visitor can get the room services, room cleaning, laundary and all such services throw the chatbot.",
+                detail: "Developed a chatbot for room services in hotel where visitor can get the room services, room cleaning, laundary and all such services through the chatbot.",
                 tools: ['Dailogflow', 'Node.js'],
                 live: ' ',
                 code: 'https://drive.google.com/file/d/1eoO8p-8-If7zU_lXi17mJAXzsycWH5bg/view?usp=sharing'
@@ -46,9 +46,9 @@ class Experience extends React.Component {
                                 <p className = "tools"> {item.tools.map(tool => (
                                     <span key = {tool}> | {tool} | </span>
                                 ))} </p>
-                                <a href = {item.live} target="blank">Live Project</a>
+<!--                                 <a href = {item.live} target="blank">Live Project</a>
                                 <span> | </span>
-                                <a href = {item.code} target="blank">Certificate</a>
+                                <a href = {item.code} target="blank">Certificate</a> -->
                             </div>
                         </li>
                     ))}
