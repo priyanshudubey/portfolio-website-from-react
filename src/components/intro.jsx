@@ -5,7 +5,7 @@ const Intro = () => {
         <div id="intro" className = "intro">
             <h4 className = "hi">Hello World!, I'm</h4>
             <h1 className = "name">Priyanshu Dubey</h1>
-            <h1 className = "make">Working as a <br></br>Full Stack Developer </h1>
+            <h1 className = "make">Working as a <br></br>Fullstack Developer </h1>
         </div>
     );
 };
