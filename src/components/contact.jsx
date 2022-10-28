@@ -5,7 +5,7 @@ const Contact = () => {
         <div id = "contact" className = "contact">
             <h2 className = "make"> Contact </h2>
             <p>
-                I'm currently looking for a <b>full time opportunity or any Internships. </b>
+                I'm currently looking for a <b>SWITCH. </b>
                 I am a quick learner and very hardworking person. Just provide me an opportunity to prove me my skills
                 and knowledge. I can be a valuable member to you organization.
                 Just say a Hi to me, I'll get back to you!

@@ -47,7 +47,7 @@ class Projects extends React.Component {
             },
             {
                 name: 'CPU & MEMORY USAGE',
-                detail: "Developed a bash script which can be deployed on server and can track it's CPU and memory usage anw it will also send an alert email to the provided mail Id  when the server will cross the threshold. It can also be used on any individual system.",
+                detail: "Developed a bash script which can be deployed on server and can track it's CPU and memory usage and it will also send an alert email to the provided mail Id  when the server will cross the threshold. It can also be used on any individual system.",
                 tools: ['Bash'],
                 live: 'https://github.com/priyanshudubey/CPU-and-Memory-usage',
                 code: 'https://github.com/priyanshudubey/CPU-and-Memory-usage'

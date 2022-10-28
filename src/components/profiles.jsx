@@ -16,10 +16,6 @@ class Profiles extends React.Component {
                 link: 'https://wa.me/919570175896',
                 icon: 'fa fa-whatsapp fa-lg'
             },
-            // {
-            //     link: 'https://www.quora.com/profile/Mansimar-Anand',
-            //     icon: 'fa fa-quora fa-lg'
-            // },
             {
                 link: 'http://codeforces.com/profile/priyanshudubey',
                 icon: 'fa fa-code fa-lg'
